@@ -139,10 +139,6 @@ nav ul li a {
     display: inline-block;
   }
 
-/*nav ul li:hover > ul.dropdown {
-    display: block;
-}*/
-
 
 /* botões de login */
 
@@ -188,7 +184,7 @@ nav ul li a {
 
 #titulo h1{
     color: white;
-    padding-top: 10px;
+    margin-top: 10px;
 
 }
 
