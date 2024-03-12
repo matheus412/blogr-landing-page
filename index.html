@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/mobile.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Blogr</title>
+
+
+</head>
+
+<body>
+  <header>
+    <div id="fundo-ini"><img src="images/bg-pattern-intro-desktop.svg" alt=""></div>
+    <div id="fundo-ini-mobile"><img src="images/bg-pattern-intro-mobile.svg" alt=""></div>
+    <img id="logo" src="images/logo.svg" alt="">
+
+    <nav id="nav-desk">
+      <ul>
+        <li><a href="#">Produtos <i class="fa-solid fa-chevron-down"></i></a>
+          <ul class="dropdown">
+            <li>Visão geral</li>
+            <li>Preços</li>
+            <li>Mercado</li>
+            <li>Características</li>
+            <li>Integrações</li>
+          </ul>
+        </li>
+        <li><a href="#">Empresa <i class="fa-solid fa-chevron-down"></i></a>
+          <ul class="dropdown">
+            <li>Sobre</li>
+            <li>Equipe</li>
+            <li>Blog</li>
+            <li>Carreiras</li>
+          </ul>
+        </li>
+        <li><a href="#">Conectar <i class="fa-solid fa-chevron-down"></i></a>
+          <ul class="dropdown">
+            <li>Contato</li>
+            <li>Boletim de Notícias</li>
+            <li>LinkedIn</li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+    <div id="login">
+      <a id="botton-login" href="#">Login</a>
+      <a id="botton-sing" href="#">Sing up</a>
+    </div>
+    <div id="menu-burguer">
+      <img onclick="toggleMenu()" src="images/icon-hamburger.svg" alt="">
+    </div>
+    <nav id="nav-mobile">
+      <ul>
+        <li><a href="" onclick="toggleSubMenu(this)" >Produtos <i class="fa-solid fa-chevron-down"></i></a>
+          <ul class="menu-mobile">
+            <li>Visão geral</li>
+            <li>Preços</li>
+            <li>Mercado</li>
+            <li>Características</li>
+            <li>Integrações</li>
+          </ul>
+        </li>
+        <li><a href="#" onclick="toggleSubMenu(this)">Empresa <i class="fa-solid fa-chevron-down"></i></a>
+          <ul class="menu-mobile">
+            <li>Sobre</li>
+            <li>Equipe</li>
+            <li>Blog</li>
+            <li>Carreiras</li>
+          </ul>
+        </li>
+        <li><a href="#" onclick="toggleSubMenu(this)">Conectar <i class="fa-solid fa-chevron-down"></i></a>
+          <ul class="menu-mobile">
+            <li>Contato</li>
+            <li>Boletim de Notícias</li>
+            <li>LinkedIn</li>
+          </ul>
+        </li>
+        <div id="button-menu-mobile">
+          <span><a id="botton-login-menu" href="#">Login</a></span><br><br>
+          <span><a id="botton-sing-menu" href="#">Sing up</a></span>
+        </div>
+      </ul>
+    </nav>
+    <div id="titulo">
+      <h1>Uma plataforma de publicação moderna</h1>
+      <p> Aumente seu público e construa sua marca online</p>
+      <div id="bottons-titulo">
+        <a id="botton-start" href="">Comece de graça</a>
+        <a id="botton-learn" href="">Saber mais</a>
+      </div>
+    </div>
+  </header>
+    <main>
+      <div id="Designed">
+        <h1>Projetado para o futuro</h1>
+        <div id="img-desig-mobile">
+          <img src="images/illustration-editor-mobile.svg" alt="">
+      </div>
+        <div id="txt-designed">
+          <h3>Apresentando um editor extensível</h3>
+          <p>O Blogr apresenta uma interface extremamente intuitiva que permite que você se concentre em uma coisa: a criação de conteúdo.
+            O editor suporta o gerenciamento de vários blogs e permite fácil manipulação de incorporações, como imagens,
+            vídeos e Markdown. A extensibilidade com plug-ins e temas fornece maneiras fáceis de adicionar funcionalidades ou
+            mudar a aparência de um blog.</p><br><br>
+          <h3>Gerenciamento robusto de conteúdo</h3>
+          <p> O gerenciamento flexível de conteúdo permite que os usuários naveguem facilmente pelas postagens. Aumente a usabilidade do seu
+            blog
+            adicionando categorias, seções, formatos ou fluxos personalizados. Com esta funcionalidade, você tem controle total.
+          </p>
+        </div>
+        <div id="img-desig">
+          <img src="images/illustration-editor-desktop.svg" alt="">
+        </div>
+      </div>
+      <div id="state">
+        <img id="phone" src="images/illustration-phones.svg" alt="">
+        <img id="cicle" src="images/bg-pattern-circles.svg" alt="">
+        <div id="txt-state">
+          <h1>Infraestrutura de última geração</h1>
+          <p>Com confiabilidade e velocidade em mente, data centers em todo o mundo fornecem a espinha dorsal para operações ultrarrápidas
+            conectividade.
+            Isso garante que seu site carregue instantaneamente, não importa onde seus leitores estejam, mantendo-o competitivo.
+          </p>
+        </div>
+      </div>
+      <div id="desk">
+        <div id="img-desk"><img src="images/illustration-laptop-desktop.svg" alt=""></div>
+        <div id="img-desk-mobile"><img src="images/illustration-laptop-mobile.svg" alt=""></div>
+        <div id="txt-desk">
+          <h3>Gratuito, aberto, simples</h3>
+          <p>O Blogr é um aplicativo gratuito e de código aberto apoiado por uma grande comunidade de desenvolvedores úteis. Ele suporta
+            recursos como destaque de sintaxe de código, feeds RSS, integração de mídia social, comentários de terceiros
+            ferramentas,
+            e funciona perfeitamente com o Google Analytics. A arquitetura é limpa e relativamente fácil de aprender.</p>
+          <h3>Ferramentas poderosas</h3>
+          <p>
+            Baterias incluídas. Construímos uma ferramenta CLI simples e direta que torna a personalização e a implantação uma tarefa fácil.
+            brisa, mas
+            capaz de produzir até os sites mais complicados.
+          </p>
+        </div>
+      </div>
+
+    </main>
+  <footer>
+      <div id="lg">
+        <img id="logo-fo" src="images/logo.svg" alt="">
+      </div>
+      <div  id="container-footer" >
+          <div class="cont-fo">
+            <span>Produtos</span>
+            <ul>
+              <li><a href="">Visão geral</a></li>
+              <li><a href="">Preços</a></li>
+              <li><a href="">Mercado</a></li>
+              <li><a href="">Características</a></li>
+              <li><a href="">Integrações</a></li>
+            </ul>
+          </div>
+          <div class="cont-fo">
+            <span>Empresa</span>
+            <ul>
+              <li><a href="">Sobre</a></li>
+              <li><a href="">Equipe</a></li>
+              <li><a href="">Blog</a></li>
+              <li><a href="">Carreiras</a></li>
+            </ul>
+          </div>
+          <div class="cont-fo">
+            <span>Conectar</span>
+            <ul>
+              <li><a href="">Contato</a></li>
+              <li><a href="">Boletim de Notícias</a></li>
+              <li><a href="">LinkedIn</a></li>
+            </ul>
+          </div>
+      </div>
+      <div id="creditos">
+        <p><a href="https://www.instagram.com/matheuss4ntos_/" target="_blank" rel="noopener">© 2024 Desenvolvido por Matheus Santos</a></p>
+      </div>
+  </footer>
+  
+<script src="js/script.js"></script>
+</body>
+
+</html>
