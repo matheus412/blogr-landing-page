@@ -208,7 +208,7 @@
         margin-top: 200px;
         text-align: center;
         display: list-item;
-        height: auto;
+        height: 650px;
     }
 
     #cicle{
@@ -216,11 +216,13 @@
     }
 
     #phone{
-        position: relative;
+        position: absolute;
         text-align: center;
         margin: auto;
         width: 300px;
-        top: -150px;
+        right: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
     }
 
     #txt-state{
@@ -228,7 +230,7 @@
         display: flex;
         max-width: 300px;
         margin: auto;
-        padding-top: 20px;
+        padding-top: 110px;
         right: 0%; 
     }
 
@@ -236,7 +238,7 @@
         max-width: 300px;
         font-size: 1.7em;
         text-align: center;
-        margin: auto;
+        margin-top: 50px;
     }
 
     #txt-state p{
