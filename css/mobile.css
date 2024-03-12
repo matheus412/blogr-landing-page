@@ -152,7 +152,7 @@
     /* titulo e botões */
 
     #titulo{
-        margin-top: 10px;
+        padding-top: 50%;
     }
 
     #titulo h1{
